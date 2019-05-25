@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 26 13:14:53 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56582 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.AddVote()'><b>AddVote</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Add Voter to Issue</td>
+<td></td>
+<td>0</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.AddWatcher()'><b>AddWatcher</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Add watcher into Defect</td>
+<td></td>
+<td>0</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.AssignIssue()'><b>AssignIssue</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Assign Bug to user</td>
+<td></td>
+<td>1</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.CreateComment()'><b>CreateComment</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Create Comment to Bug</td>
+<td></td>
+<td>0</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.CreateIssue()'><b>CreateIssue</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Create Issue in JIRA Tool</td>
+<td></td>
+<td>2</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectTest.DeleteProject()'><b>DeleteProject</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectTest<br>Test method: Deletion of JIRA Project</td>
+<td></td>
+<td>4</td>
+<td>com.qa.JiraAPI.JIRA_ProjectTest@15530b9</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.GetWatcher()'><b>GetWatcher</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Get Watcher in the Bug</td>
+<td></td>
+<td>1</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectTest.JIRAProjectCreation()'><b>JIRAProjectCreation</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectTest<br>Test method: Creation of JIRA Project</td>
+<td></td>
+<td>40</td>
+<td>com.qa.JiraAPI.JIRA_ProjectTest@15530b9</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.RemoveComment()'><b>RemoveComment</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Remove Comment from Bug</td>
+<td></td>
+<td>0</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.RemoveIssue()'><b>RemoveIssue</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Remove Bug from JIRA</td>
+<td></td>
+<td>0</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.RemoveWatcher()'><b>RemoveWatcher</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Remove Watcher from Bug</td>
+<td></td>
+<td>1</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectIssue.UpdateComment()'><b>UpdateComment</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectIssue<br>Test method: Update Defect with new Comment</td>
+<td></td>
+<td>1</td>
+<td>com.qa.JiraAPI.JIRA_ProjectIssue@1057a39</td></tr>
+<tr>
+<td title='com.qa.JiraAPI.JIRA_ProjectTest.UpdateProject()'><b>UpdateProject</b><br>Test class: com.qa.JiraAPI.JIRA_ProjectTest<br>Test method: Updation of JIRA Project</td>
+<td></td>
+<td>1</td>
+<td>com.qa.JiraAPI.JIRA_ProjectTest@15530b9</td></tr>
+</table><p>
+</body>
+</html>

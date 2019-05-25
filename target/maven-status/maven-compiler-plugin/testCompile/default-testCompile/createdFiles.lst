@@ -1,0 +1,8 @@
+com\qa\JiraAPI\JIRA_ProjectIssue.class
+com\qa\JiraAPI\JIRA_ProjectTest.class
+com\qa\testcase\GoogelAPISearchForNearByResturtant.class
+com\qa\TwitterOathAPI\TwitterTest.class
+com\qa\testcase\POSTRequest.class
+com\qa\testcase\GoogelAPI_IncompelteAddress.class
+com\qa\JiraAPI\Jira_Login.class
+com\qa\testcase\GoogelAPIByDistance.class

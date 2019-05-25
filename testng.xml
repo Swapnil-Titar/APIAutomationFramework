@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="resources.ExtentReporterNG" />
+		<listener class-name="com.qa.utlis.ListnerImpl" />
+
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			
+			 <class name="com.qa.JiraAPI.JIRA_ProjectTest" />
+			<class name="com.qa.JiraAPI.JIRA_ProjectIssue" /> 
+			<!-- <class name="com.qa.TwitterOathAPI.TwitterTest" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

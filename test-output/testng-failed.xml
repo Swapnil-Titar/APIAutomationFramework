@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+    <listener class-name="com.qa.utlis.ListnerImpl"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.JiraAPI.JIRA_ProjectTest">
+        <methods>
+          <include name="JIRAProjectCreation"/>
+          <include name="DeleteProject"/>
+          <include name="TestDataSetup"/>
+          <include name="UpdateProject"/>
+        </methods>
+      </class> <!-- com.qa.JiraAPI.JIRA_ProjectTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
